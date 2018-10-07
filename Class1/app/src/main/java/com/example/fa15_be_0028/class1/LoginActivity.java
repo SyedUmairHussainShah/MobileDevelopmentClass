@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity
 {
@@ -28,6 +29,7 @@ public class LoginActivity extends AppCompatActivity
         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
         intent.putExtra("username", name);
         intent.putExtra("password", pass);
+        Toast.makeText(LoginActivity.this, "Successfully", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
 }

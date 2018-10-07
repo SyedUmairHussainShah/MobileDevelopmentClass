@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Class1</string>
+    <array name="items">
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+    </array>
 </resources>
